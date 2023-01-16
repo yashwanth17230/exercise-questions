@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+    int n,i,a[10];
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=n;i>0;i--)
+    {
+        printf("%d\t",a[i]);
+    }
+}
+
+input:
+4 
+4 3 2 1
+
+output:
+
+1 2 3 4
